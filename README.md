@@ -39,4 +39,7 @@ One the shell prompts comes up you can issue the following command to connect th
 *This is/was originally managed by Eric Bottard of Pivotal. Since the automatic build on the original docker file was failing so I had to make my own. I recommend that you use his repository but if that did not work, you can always use this repository.*
 
 #####Github URL for the project
-http://www.github.com/mohdaliiqbal/springxd-docker
+[https://registry.hub.docker.com/u/mohdaliiqbal/springxd-docker/](http://www.github.com/mohdaliiqbal/springxd-docker)
+
+#####Dockerhub URL for the project
+[https://registry.hub.docker.com/u/mohdaliiqbal/springxd-docker/](https://registry.hub.docker.com/u/mohdaliiqbal/springxd-docker/)
