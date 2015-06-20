@@ -2,7 +2,7 @@
 Spring XD docker file for SpringXD image - 1.2.0.RELEASE
 
 ###Get started on MacOS
-The fastest way on MACOS to get up and running with docker is [Kitematics](https://kitematic.com/download). However there are few more options to play with [latticecf](http://lattice.cf) by [Pivotal](www.pivotal.io) or [RancherOS](http://rancher.com/rancher-os/). Both are good and are one level up from Kitematics which is just good if you want to work with local images and not fancy Microservices/Cloud shit just yet.
+The fastest way on MACOS to get up and running with docker is [Kitematics](https://kitematic.com/download). However there are few more options to play with [latticecf](http://lattice.cf) by [Pivotal](www.pivotal.io) or [RancherOS](http://rancher.com/rancher-os/). Both are good and are one level up from Kitematics. Kitematic and perhaps [Docker Compose](https://www.docker.com/docker-compose) is good enough if you want to work with local multi container apps and don't want to get bogged down with building cloud/microservices sh** just yet. 
 
 ###How to get this thing up and running 
 *(assuming you have docker installed)*
