@@ -17,5 +17,8 @@ RUN wget http://repo.spring.io/${XD_BUILD}/org/springframework/xd/spring-xd/${XD
     && ln -s /opt/spring-xd-${XD_VERSION} /opt/spring-xd
 
 USER springxd
+
+RUN mkdir /opt/spring-xd-${XD_VERSION}/xd/data \
+    && mkdir /opt/spring-xd-${XD_VERSION}/xd/custom-modules \
+    
 WORKDIR /opt/spring-xd
-VOLUME ["/config", "/custom-modules"]
