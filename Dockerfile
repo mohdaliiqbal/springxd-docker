@@ -19,6 +19,6 @@ RUN wget http://repo.spring.io/${XD_BUILD}/org/springframework/xd/spring-xd/${XD
 USER springxd
 
 RUN mkdir /opt/spring-xd-${XD_VERSION}/xd/data \
-    && mkdir /opt/spring-xd-${XD_VERSION}/xd/custom-modules \
+    && mkdir /opt/spring-xd-${XD_VERSION}/xd/custom-modules
     
 WORKDIR /opt/spring-xd
