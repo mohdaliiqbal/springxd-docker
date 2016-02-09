@@ -20,5 +20,4 @@ USER springxd
 
 RUN mkdir /opt/spring-xd-${XD_VERSION}/xd/data \
     && mkdir /opt/spring-xd-${XD_VERSION}/xd/custom-modules
-    
 WORKDIR /opt/spring-xd
