@@ -3,7 +3,7 @@ MAINTAINER Muhammad Ali
 
 # 'snapshot' or 'release'
 ENV XD_BUILD release
-ENV XD_VERSION 1.2.1.RELEASE
+ENV XD_VERSION 1.3.0.RELEASE
 
 RUN groupadd -r springxd && useradd -r -g springxd springxd
 
